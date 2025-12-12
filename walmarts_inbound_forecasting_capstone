@@ -1,0 +1,68 @@
+📦 Walmart Inbound Forecasting & Demand Modeling
+
+University of Maryland — MSBA Capstone Project
+Team project completed with Vinay Chandran & UMD Analytics team.
+
+Forecasted inbound cases and trucks for 100 Walmart stores across 5 departments using 17 months of data.
+Built complete data pipelines, time-series splits, CatBoost/XGBoost/ETS/ARIMA models, and operational insights.
+
+🔹 My Key Contributions
+
+Cleaned and merged 275,000+ store–department–day rows
+
+Built time-series train/validation splits for 5 departments
+
+Engineered seasonal, weekly, and weather-related features
+
+Developed models using CatBoost, XGBoost, ETS, ARIMA
+
+Evaluated model performance (RMSE, MAPE) and compared cross-department results
+
+Contributed to slide deck and insights for final presentation
+
+🔹 Pipeline Overview
+
+Data cleaning & merging
+
+Exploratory data analysis (seasonality, trends, anomalies)
+
+Feature engineering
+
+Modeling suite (CatBoost, XGBoost, ETS, ARIMA)
+
+Model summaries + performance tables
+
+Insights & recommendations
+
+🔹 Tech Stack
+
+Python, Pandas, NumPy, Scikit-learn
+CatBoost, XGBoost
+ARIMA, ETS
+Matplotlib, Seaborn
+Jupyter Notebooks
+
+📂 Project Structure
+├── data/
+├── models/
+├── visualizations/
+├── 01_data_merge.ipynb
+├── 02_data_preparation_pipeline.ipynb
+├── 03_timeseries_splits.ipynb
+├── 04_dept6_modeling_suite.ipynb
+├── 05_dept9_modeling_suite.ipynb
+└── MODELING_DATA_README.md
+
+📊 Results Summary
+
+CatBoost and XGBoost outperformed classical models in most departments
+
+Seasonality features boosted accuracy in high-variance departments
+
+Best improvements were seen in Departments 67 & 92
+
+👥 Team
+
+Devraj Patil — Data Preparation • Feature Engineering • Modeling
+Vinay Chandran — Modeling • Evaluation • Presentation
+UMD MSBA 2025 Cohort
